@@ -1,0 +1,56 @@
+
+[2025-07-02 21:09:49] Traceback (most recent call last):
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 64, in <module>
+    main()
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 41, in main
+    client_handler = browser.GetClientHandler()
+AttributeError: 'cefpython_py39.PyBrowser' object has no attribute 'GetClientHandler'
+
+
+[2025-07-02 21:11:40] Traceback (most recent call last):
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 70, in <module>
+    main()
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 39, in main
+    client_handler = browser.GetClientHandler()
+AttributeError: 'cefpython_py39.PyBrowser' object has no attribute 'GetClientHandler'
+
+
+[2025-07-02 21:12:48] Traceback (most recent call last):
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 68, in <module>
+    main()
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 37, in main
+    browser = cef.CreateBrowserSync(
+  File "cefpython_py39.pyx", line 677, in cefpython_py39.CreateBrowserSync
+Exception: Invalid argument: request_handler
+
+
+[2025-07-02 21:13:58] Traceback (most recent call last):
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 73, in <module>
+    main()
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 46, in main
+    browser.SetClientHandler(client_handler)
+  File "browser.pyx", line 287, in cefpython_py39.PyBrowser.SetClientHandler
+  File "browser.pyx", line 300, in cefpython_py39.PyBrowser.SetClientHandler
+  File "browser.pyx", line 283, in cefpython_py39.PyBrowser.SetClientCallback
+Exception: Browser.SetClientCallback() failed: unknown callback: GetRequestHandler
+
+
+[2025-07-02 21:14:54] Traceback (most recent call last):
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 66, in <module>
+    main()
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 39, in main
+    browser.SetClientHandler(client_handler)
+  File "browser.pyx", line 287, in cefpython_py39.PyBrowser.SetClientHandler
+  File "browser.pyx", line 300, in cefpython_py39.PyBrowser.SetClientHandler
+  File "browser.pyx", line 283, in cefpython_py39.PyBrowser.SetClientCallback
+Exception: Browser.SetClientCallback() failed: unknown callback: GetRequestHandler
+
+
+[2025-07-02 21:16:23] Traceback (most recent call last):
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 67, in <module>
+    main()
+  File "C:\Users\aidan\OneDrive\Documents\GitHub\meshnetwork\pythonClient\main.py", line 33, in main
+    browser = cef.CreateBrowserSync(
+  File "cefpython_py39.pyx", line 677, in cefpython_py39.CreateBrowserSync
+Exception: Invalid argument: client_handler
+
