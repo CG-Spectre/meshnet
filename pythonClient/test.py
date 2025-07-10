@@ -25,7 +25,8 @@ while(True):
     if(line.startswith("HANDLE")):
         line = line.split("HANDLE ", 1)[1]
         if(line.startswith("GET")):
-            module.write("Nigger".encode('utf-8'))
-            module.flush()
+            with open("index.html") as f:
+                module.write(f.read().encode('utf-8'))
+                module.flush()
     elif(line.strip() != ""):
         print(line.strip())
