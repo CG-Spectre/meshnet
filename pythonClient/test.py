@@ -1,7 +1,6 @@
 import serial
 import time
 import sys
-import msvcrt
 import threading
 
 def input_thread():
